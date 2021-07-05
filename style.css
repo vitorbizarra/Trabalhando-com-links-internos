@@ -1,0 +1,187 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: sans-serif;
+}
+
+
+/*configurações cabeçalho e menu*/
+.navbar{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #d4d7de;
+	height: 70px;
+	z-index: 1;
+	width: 100%;
+}
+
+.nav{
+	display: flex;
+	justify-content: right;
+	list-style: none;
+	margin-right: 10%;
+}
+
+.logo{
+	flex: 1 1 auto;
+	margin-left: 10%;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	font-size: 35px;
+}
+
+a{
+	margin: 15px;
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/*Configurações de cada área*/
+.banner-area{
+	position:relative;
+	background-image: url(imagens/programador.jpg);
+	width: 100%;
+	height: 100vh;
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+	background-size: cover;
+}
+
+.jquery-area, .bootstrap-area{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+}
+
+.html-area{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+}
+
+.javascript-area{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 100vh;
+}
+.php-area{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 115vh;
+}
+
+.download-area{
+	position: relative;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: 180vh;
+}
+
+.bootstrap-area, .javascript-area, .download-area{
+	background: #1c1c1c;
+	color: #fff;
+}
+
+.texto{
+	width: 65%;
+	height: 80%;
+}
+
+.textod{
+	margin-top: -25vh;
+	width: 65%;
+	height: 80%;
+}
+
+/* Configurações das imagens e textos da parte de Downloads*/
+.imgsublime{
+	width:200px;
+	height: 200px;
+	position: absolute;
+	margin-top: 0px;
+}
+
+.textosublime{
+	width: 65%;
+	margin-left: 250px;
+	margin-top: -35px;
+	position: relative;
+}
+
+.imgjquery, .imgbootstrap, .imghtml, .imgjavascript, .imgphp{
+	width:200px;
+	height: 200px;
+	position: absolute;
+	margin-top: 150px;
+}
+
+.textojquery, .textobootstrap, .textohtml, .textojavascript, .textophp{
+	width: 65%;
+	margin-left: 250px;
+	margin-top: 150px;
+	position: relative;
+}
+
+/* Configurações de texto e título*/
+h1{
+	font-size: 50px;
+	font-family: Arial;
+}
+
+p{
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+/* Comando pra a rolagem da página ser suave quando clicar no botão*/
+html{
+	scroll-behavior: smooth;
+}
+
+/*Rodapé*/
+footer{
+	height: 50px;
+	background-color: #d4d7de;
+	text-align: center;
+	margin-top: -15px; 
+	position: relative;
+	left: 0px;
+	transition: 0.5s
+}
+
+footer p{
+	color: #1c1c1c;
+	padding-top: 15px;
+	text-align: center;
+}
